@@ -1,0 +1,29 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000N\u0000o\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaPanchenko/Note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaPanchenko/Note/issues"
+  },
+  "homepage": "https://github.com/EkaterinaPanchenko/Note#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "dist": "^0.1.2",
+    "img": "^3.0.3"
+  }
+}
