@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.note {
+  padding: 40px;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+
+  &__description {
+    background-color: transparent;
+    height: 120px;
+    padding: 30px 15px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    resize: none;
+  }
+
+  &__color {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border: none;
+    width: 18px;
+    height: 18px;
+  }
+
+  &__cancel {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.block {
+  padding: 40px;
+
+  &__description {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  &__button {
+    padding: 5px 80px;
+    font-size: 20px;
+  }
+}
